@@ -21,14 +21,13 @@ const Projects = ({ showMore }) => {
     },
     {
       id: 2,
-      title: "Melody Generation",
+      title: "Art Explorer Web",
       image: Project2,
-      description: "Built a Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM) achieving 92% accuracy and 24% loss.",
-      tags: ["Python", "RNN-LSTM", "music21", "Keras", "TensorFlow"],
-      github: "https://github.com/shettyrohit0810/Melody-Generation-using-RNN-LSTM",
-      website: "",
-      researchPaper: "https://ieeexplore.ieee.org/abstract/document/10276249",
-      color: "#F93E5B"
+      description: "A responsive, interactive Angular web app that lets users search for artists, view artworks, and manage their favorites.",
+      tags: ["Angular", "TypeScript", "RxJS", "Bootstrap", "JWT"],
+      github: "https://github.com/shettyrohit0810/Art-Explorer-Web",
+      website: "https://rohit-hw-3.wl.r.appspot.com/search",
+      color: "#dd1b16"
     },
     {
       id: 3,
@@ -52,13 +51,13 @@ const Projects = ({ showMore }) => {
     },
     {
       id: 5,
-      title: "Art Explorer Web",
+      title: "Melody Generation",
       image: Project5,
-      description: "A responsive, interactive Angular web app that lets users search for artists, view artworks, and manage their favorites.",
-      tags: ["Angular", "TypeScript", "RxJS", "Bootstrap", "JWT"],
-      github: "https://github.com/shettyrohit0810/Art-Explorer-Web",
-      website: "https://rohit-hw-3.wl.r.appspot.com/search",
-      color: "#dd1b16"
+      description: "Built a Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM) achieving 92% accuracy and 24% loss.",
+      tags: ["Python", "RNN-LSTM", "music21", "Keras", "TensorFlow"],
+      github: "https://github.com/shettyrohit0810/Melody-Generation-using-RNN-LSTM",
+      website: "",
+      color: "#F93E5B"
     }
   ];
 
@@ -95,12 +94,6 @@ const Projects = ({ showMore }) => {
                   <a href={project.website} className="btn" target="_blank" rel="noopener noreferrer">
                     <img src={ExternalLinkIcon} alt="Link" />
                     Website
-                  </a>
-                )}
-                {project.researchPaper && (
-                  <a href={project.researchPaper} className="btn" target="_blank" rel="noopener noreferrer">
-                    <img src={ExternalLinkIcon} alt="Link" />
-                    Research Paper
                   </a>
                 )}
               </div>

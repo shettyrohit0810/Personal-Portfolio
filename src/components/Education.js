@@ -81,7 +81,7 @@ const Education = ({ showAllCertificates, onShowMoreCertificates }) => {
 
             if (cert.url) {
               return (
-                <a href={cert.url} target="_blank" rel="noopener noreferrer" className="certification-link">
+                <a key={index} href={cert.url} target="_blank" rel="noopener noreferrer" className="certification-link">
                   {content}
                 </a>
               );

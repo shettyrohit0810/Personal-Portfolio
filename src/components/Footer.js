@@ -13,7 +13,7 @@ const Footer = ({ onGetInTouchClick }) => {
       </div>
       <span className="mt-4 text-base font-light tracking-wide text-black sm:text-2xl lg:text-3xl dark:text-white">
         <h3 className="text-nowrap" style={{ opacity: 1, transform: 'none' }}>FROM CONCEPT TO <span className="font-extrabold">CREATION</span></h3>
-        <h3 className="mt-3 text-nowrap" style={{ opacity: 1, transform: 'none' }}>LET's MAKE IT <span className="font-extrabold">HAPPEN!</span></h3>
+        <h3 className="mt-3 text-nowrap" style={{ opacity: 1, transform: 'none' }}>LET'S MAKE IT <span className="font-extrabold">HAPPEN!</span></h3>
       </span>
       <div className="group" style={{ transform: 'none' }}>
         <button onClick={onGetInTouchClick} className="group relative inline-flex cursor-pointer items-center justify-between overflow-hidden rounded-full border border-black/30 bg-black/20 py-[3px] pr-[3px] pl-2 text-base font-medium opacity-85 backdrop-blur-xs transition-all hover:bg-transparent md:py-1 md:pr-1 md:pl-3 dark:border-white/10 dark:bg-white/10 my-10 group-hover:scale-125">

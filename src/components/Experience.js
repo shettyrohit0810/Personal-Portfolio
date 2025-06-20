@@ -10,6 +10,7 @@ const experiences = [
     description: [
       'Built an AI chatbot with Azure OpenAI and SQL, led ATS optimization sessions, and handled data migration and ingestion using Databricks.',
     ],
+    color: '#00e0ff'
   },
   {
     company: 'BTB – Be The Bank',
@@ -19,6 +20,7 @@ const experiences = [
     description: [
       'Led M-Pesa API integration for B2B payments, improving reliability and reducing failures by 30% through strong team and stakeholder collaboration.',
     ],
+    color: '#8a2be2'
   },
   {
     company: 'Spay India',
@@ -28,6 +30,7 @@ const experiences = [
     description: [
       'Developed core features and optimized database architecture for a B2B2C fintech platform using JDK and React, scaling to 10,000+ users.',
     ],
+    color: '#ff5f6d'
   },
 ];
 
@@ -68,7 +71,11 @@ const Experience = () => {
       <h2 className="experience-title">My Experience</h2>
       <div className="timeline" ref={timelineRef}>
         {experiences.map((exp, index) => (
-          <div key={index} className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}>
+          <div 
+            key={index} 
+            className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}
+            style={{ '--timeline-color': exp.color }}
+          >
             <div className="timeline-dot"></div>
             {index % 2 === 0 ? (
               <>

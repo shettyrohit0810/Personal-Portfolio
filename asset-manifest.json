@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Personal-Portfolio/static/css/main.04134834.css",
+    "main.js": "/Personal-Portfolio/static/js/main.67e8ca71.js",
+    "static/media/music.mp3": "/Personal-Portfolio/static/media/music.d522752f4b0088f932c7.mp3",
+    "static/media/Rohit-Image1.webp": "/Personal-Portfolio/static/media/Rohit-Image1.85c36f24be9a8cbe70d6.webp",
+    "static/media/Rohit-Image.webp": "/Personal-Portfolio/static/media/Rohit-Image.aa79e1b3924c0426ecdf.webp",
+    "static/media/Project2.webp": "/Personal-Portfolio/static/media/Project2.907bab3c633112e12a37.webp",
+    "static/media/HBS.webp": "/Personal-Portfolio/static/media/HBS.a447902ec951c66ac18a.webp",
+    "static/media/Project1.webp": "/Personal-Portfolio/static/media/Project1.691317418d81c858ffe7.webp",
+    "static/media/Project3.webp": "/Personal-Portfolio/static/media/Project3.d0566c3cfa23a10e1194.webp",
+    "static/media/DeepLearning.webp": "/Personal-Portfolio/static/media/DeepLearning.6679e1fddb749cfff949.webp",
+    "static/media/Project4.webp": "/Personal-Portfolio/static/media/Project4.e360e3037c011c0bac83.webp",
+    "static/media/LeetCode.webp": "/Personal-Portfolio/static/media/LeetCode.27770f1eeaa13a372e0f.webp",
+    "static/media/Project5.webp": "/Personal-Portfolio/static/media/Project5.c16f13fe23aea2d2ae97.webp",
+    "static/media/Education1.webp": "/Personal-Portfolio/static/media/Education1.a6d7dc867b73d7426e01.webp",
+    "static/media/Education2.webp": "/Personal-Portfolio/static/media/Education2.bf9431a1f6fe4944735a.webp",
+    "index.html": "/Personal-Portfolio/index.html",
+    "static/media/Github.svg": "/Personal-Portfolio/static/media/Github.8a2feb8417aab3a0912578932229ca7c.svg",
+    "static/media/external-link.svg": "/Personal-Portfolio/static/media/external-link.de1c2d253dba9f3853798f212baa23c1.svg",
+    "main.04134834.css.map": "/Personal-Portfolio/static/css/main.04134834.css.map",
+    "main.67e8ca71.js.map": "/Personal-Portfolio/static/js/main.67e8ca71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04134834.css",
+    "static/js/main.67e8ca71.js"
+  ]
+}

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './ContactModal.css';
-import LeetCodeLogo from '../Assets/LeetCode.webp';
+// import LeetCodeLogo from '../Assets/LeetCode.webp';
 
 const ContactModal = ({ onClose }) => {
   const [activeTab, setActiveTab] = useState('quick');

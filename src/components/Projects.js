@@ -3,6 +3,7 @@ import './Projects.css';
 import Project1 from '../Assets/Project1.webp';
 import Project2 from '../Assets/Project2.webp';
 import Project3 from '../Assets/Project3.webp';
+import StrokeProject from '../Assets/Stroke_Project.png';
 import Project4 from '../Assets/Project4.webp';
 import Project5 from '../Assets/Project5.webp';
 import GithubIcon from '../Assets/Github.svg';
@@ -12,18 +13,19 @@ const Projects = ({ showMore }) => {
   const projects = [
     {
       id: 1,
-      title: "ATS Tracking System",
+      title: "ATS Optimizer",
       image: Project1,
-      description: "An intelligent ATS checker that evaluates resumes against job descriptions, providing a match percentage and identifying missing keywords.",
+      description: "An intelligent ATS system that evaluates resumes against job descriptions, providing match percentages and identifying missing keywords. Built with React and Flask.",
       tags: ["React", "JavaScript", "Python", "Flask", "scikit-learn", "NLP"],
-      github: "https://github.com/shettyrohit0810/ATS-Resume-Evaluator",
+      github: "https://github.com/shettyrohit0810/Ats-Optimizer",
+      website: "https://ats-optimizer.netlify.app/",
       color: "#0EDA7D"
     },
     {
       id: 2,
       title: "Art Explorer Web",
       image: Project2,
-      description: "A responsive, interactive Angular web app that lets users search for artists, view artworks, and manage their favorites.",
+      description: "A responsive Angular web application for exploring artworks and artists. Features include search functionality, favorites management, and interactive galleries.",
       tags: ["Angular", "TypeScript", "RxJS", "Bootstrap", "JWT"],
       github: "https://github.com/shettyrohit0810/Art-Explorer-Web",
       website: "https://rohit-hw-3.wl.r.appspot.com/search",
@@ -31,19 +33,19 @@ const Projects = ({ showMore }) => {
     },
     {
       id: 3,
-      title: "Personal Portfolio",
-      image: Project3,
-      description: "I Developed A Personal Portfolio Website To Showcase My Skills, Projects, And Experience As A Web Developer.",
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/shettyrohit0810/Personal-Portfolio",
-      website: "#",
+      title: "Brain Stroke Prediction using DNN",
+      image: StrokeProject,
+      description: "A machine learning system for predicting stroke risk in patients using Deep Neural Networks. Achieved 92% accuracy with comprehensive data analysis and visualization.",
+      tags: ["Python", "TensorFlow", "Deep Learning", "Streamlit", "Scikit-learn"],
+      github: "https://github.com/shettyrohit0810/Brain-Stroke-Prediction-using-DNN",
+      website: "https://ieeexplore.ieee.org/abstract/document/10276249",
       color: "#f1c40f"
     },
     {
       id: 4,
       title: "Android Art Explorer App",
       image: Project4,
-      description: "A native Android application for browsing and discovering artworks from various artists and categories, built with Java and Android Studio.",
+      description: "A native Android application for discovering and exploring artworks. Features a modern Material Design UI, category browsing, and artist profiles.",
       tags: ["Java", "Android Studio", "XML", "Material Design"],
       github: "https://github.com/shettyrohit0810/Android-Art-Explorer-App",
       website: "",
@@ -53,11 +55,21 @@ const Projects = ({ showMore }) => {
       id: 5,
       title: "Melody Generation",
       image: Project5,
-      description: "Built a Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM) achieving 92% accuracy and 24% loss.",
+      description: "An AI-powered music generation system using RNN-LSTM architecture. Achieved 92% accuracy in melody prediction and generation with comprehensive model training.",
       tags: ["Python", "RNN-LSTM", "music21", "Keras", "TensorFlow"],
       github: "https://github.com/shettyrohit0810/Melody-Generation-using-RNN-LSTM",
       website: "",
       color: "#F93E5B"
+    },
+    {
+      id: 6,
+      title: "Personal Portfolio",
+      image: Project3,
+      description: "A modern portfolio website showcasing my projects and skills. Features include dark mode, interactive animations, responsive design, and integrated contact system.",
+      tags: ["React", "Tailwind CSS", "JavaScript", "EmailJS", "Netlify"],
+      github: "https://github.com/shettyrohit0810/Personal-Portfolio",
+      website: "https://rohitshetty.netlify.app/",
+      color: "#61DAFB"
     }
   ];
 

@@ -18,7 +18,7 @@ const Projects = ({ showMore }) => {
       description: "Transform your resume into an ATS-friendly, job-aligned profile. ATS Optimizer analyzes your resume and job description to generate actionable insights, keyword coverage, gap analysis, sentence-level feedback, and job fit score.",
       tags: ["Next.js", "TypeScript", "Node.js", "Express", "OpenAI API", "Tailwind CSS"],
       github: "https://github.com/shettyrohit0810/Ats-Optimizer",
-      website: "https://ats-optimizer.netlify.app/",
+      website: "",
       color: "#0EDA7D"
     },
     {

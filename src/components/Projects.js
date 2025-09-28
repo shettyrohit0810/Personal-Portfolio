@@ -15,8 +15,8 @@ const Projects = ({ showMore }) => {
       id: 1,
       title: "ATS Optimizer",
       image: Project1,
-      description: "An intelligent ATS system that evaluates resumes against job descriptions, providing match percentages and identifying missing keywords. Built with React and Flask.",
-      tags: ["React", "JavaScript", "Python", "Flask", "scikit-learn", "NLP"],
+      description: "Transform your resume into an ATS-friendly, job-aligned profile. ATS Optimizer analyzes your resume and job description to generate actionable insights, keyword coverage, gap analysis, sentence-level feedback, and job fit score.",
+      tags: ["Next.js", "TypeScript", "Node.js", "Express", "OpenAI API", "Tailwind CSS"],
       github: "https://github.com/shettyrohit0810/Ats-Optimizer",
       website: "https://ats-optimizer.netlify.app/",
       color: "#0EDA7D"
